@@ -10,7 +10,6 @@ buffer_t *init_buffer(void);
  * @output: A buffer_t struct.
  * @src: A pointer to the memory area to copy.
  * @n: The number of bytes to be copied.
- *
  * Return: The number of bytes copied.
  */
 unsigned int _memcpy(buffer_t *output, const char *src, unsigned int n)
