@@ -16,7 +16,6 @@ unsigned int convert_p(va_list args, buffer_t *output,
  * @prec: A precision modifier.
  * @len: A length modifier.
  * @output: A buffer_t struct containing a character array.
- *
  * Return: The number of bytes stored to the buffer.
  */
 unsigned int convert_c(va_list args, buffer_t *output,
