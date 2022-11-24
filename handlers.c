@@ -11,7 +11,6 @@ unsigned int (*handle_specifiers(const char *specifier))(va_list, buffer_t *,
  * handle_flags - Matches flags with corresponding values.
  * @flag: A pointer to a potential string of flags.
  * @index: An index counter for the original format string.
- *
  * Return: If flag characters are matched - a corresponding value.
  *         Otherwise - 0.
  */
@@ -53,7 +52,6 @@ unsigned char handle_flags(const char *flag, char *index)
  * handle_length - Matches length modifiers with their corresponding value.
  * @modifier: A pointer to a potential length modifier.
  * @index: An index counter for the original format string.
- *
  * Return: If a lenth modifier is matched - its corresponding value.
  *         Otherwise - 0.
  */
